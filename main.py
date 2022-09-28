@@ -1,3 +1,4 @@
-from lanzador import lanzar,vehiculos_ruedas
+from lanzador import lanzar
+from lanzador import vehiculos_ruedas
 if __name__ == '__main__':
     lanzar()

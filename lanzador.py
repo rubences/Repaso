@@ -1,7 +1,7 @@
-from Repaso.coche import coche
-from Repaso.moto import moto
-from Repaso.camioneta import camioneta
-from Repaso.tipo import tipo
+from coche import coche
+from moto import moto
+from camioneta import camioneta
+from tipo import tipo
 def vehiculos_ruedas(ruedas,list1,list2=[]):
     for i in list1:
         if i.ruedas==ruedas:
